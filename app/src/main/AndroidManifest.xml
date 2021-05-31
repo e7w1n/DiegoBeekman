@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.diegobeekman.winn">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <!-- This is for the login activities -->
+        <activity android:name=".Login_Signup.ForgotPasswordActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".Login_Signup.SignInActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".Login_Signup.SignUpActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".Login_Signup.LoginMainActivity"
+            tools:ignore="Instantiatable" />
+        <!--        <activity android:name=".Login_Signup.WelcomeActivity" />-->
+        <!-- This is for the login activities -->
+
+        <!-- This is for the loginscreen activities -->
+        <!--        &lt;!&ndash;        <activity android:name=".Loginscreen.MainActivity"/>&ndash;&gt;-->
+        <!--        <activity android:name=".Loginscreen.ProfileActivity"/>-->
+        <!--        <activity android:name=".Loginscreen.RegisterActivity"/>-->
+        <!--        <activity android:name=".Loginscreen.ForgotPasswordActivity"/>-->
+        <!-- This is for the loginscreen activities -->
+
+        <activity android:name=".UserProfile.BuildingListActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".UserProfile.getthename"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".UserProfile.RegisterActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".UserProfile.LoginGetUserName"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".UserProfile.MainActivity"
+            tools:ignore="Instantiatable" />
+        <!--        <activity android:name=".UserProfile.LoginMain"/>-->
+
+        <!-- this the directory we are going to be using to swap to each menu -->
+        <!--        <activity android:name=".menuOptions.menu_login"/>-->
+
+        <activity android:name=".UserProfile.LoginMain"
+            tools:ignore="Instantiatable">
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

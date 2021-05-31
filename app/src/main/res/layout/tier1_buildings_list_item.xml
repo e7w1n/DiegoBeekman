@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    app:layout_constraintBottom_toTopOf="parent"
+    app:layout_constraintTop_toBottomOf="parent">
+
+    <!-- this is for the list of buildings-->
+
+    <RelativeLayout
+        android:id="@+id/Available_buildings_relativeLayout"
+        android:layout_width="200dp"
+        android:layout_height="767dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- these are textview to display only porters -->
+        <TextView
+            android:id="@+id/Available_buildings"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="monospace"
+            android:text="Available Buildings"
+            android:textColor="#23E32B"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/Building1_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-1dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/Building2_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Building3_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Building4_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="75dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building5_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building6_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="125dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building7_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building8_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="175dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building9_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="175dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building10_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building11_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="225dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building12_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building13_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="275dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building14_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building15_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="325dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building16_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="350dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building17_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="375dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building18_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="400dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building19_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="425dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building20_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="450dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building21_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="475dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building22_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="500dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building23_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="525dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building24_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="450dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building25_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="475dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <!-- these textview are only to display the list of buildings-->
+</androidx.constraintlayout.widget.ConstraintLayout>
+

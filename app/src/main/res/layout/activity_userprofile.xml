@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    app:layout_constraintBottom_toTopOf="parent"
+    app:layout_constraintTop_toBottomOf="parent">
+
+    <!-- this is for the list of buildings-->
+
+    <RelativeLayout
+        android:id="@+id/Available_buildings_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- these are textview to display only porters -->
+        <TextView
+            android:id="@+id/Available_buildings"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="monospace"
+            android:text="Available Buildings"
+            android:textColor="#23E32B"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/Building1_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building1"
+            android:textSize="20sp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/Building2_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building2"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Building3_txtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/hind"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.126"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="building3"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Building4_txtView"
+            android:layout_width="284dp"
+            android:layout_height="49dp"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building4"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/Building5_txtView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/hind"
+            android:text="building5"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Building6_txtView"
+            android:layout_width="182dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/Available_buildings"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/hind"
+            android:text="building6"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <!-- these textview are only to display the list of buildings-->
+</androidx.constraintlayout.widget.ConstraintLayout>

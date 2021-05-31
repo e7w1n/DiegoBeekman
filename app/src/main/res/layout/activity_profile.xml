@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile.BuildingListActivity$MainActivity">
+
+        <!-- This is the file which will contain all item text to list down to show the profile for the user
+              this file is used by the com.example.schedule.Buildings.MainActivity
+        !-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/profile_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+</androidx.core.widget.NestedScrollView>
+
